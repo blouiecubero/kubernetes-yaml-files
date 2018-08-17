@@ -13,7 +13,7 @@ spec:
 
 ---
 # How do we want it implemented
-apiVersion: v1
+apiVersion: storage.k8s.io/v1
 kind: StorageClass
 metadata:
   name: cloud-ssd
